@@ -49,5 +49,7 @@
 	"overrideCommand": false,
 	"hostRequirements": {
 		"memory": "6gb"
-	}
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/foo,type=bind",
+	"workspaceFolder": "/foo"
 }
